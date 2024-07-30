@@ -1,6 +1,13 @@
  /* Navigation */
 .navbar-collapse .navbar-nav .nav-item a:hover {
     color: royalblue; /* Changes the color of navigation links to orange when hovered over */
+    background-color: yellow;
+    border-radius: 100px;
+    transition: 1s;
+}
+
+.navbar-brand {
+    font-family: "Kalnia Glaze", serif;
 }
 
 .cart-item {
@@ -15,8 +22,18 @@
 } 
 /* Banner */
 .banner-image {
-    background: url('img/banner.jpg') no-repeat center center / cover;
-    min-height: 600px;
+    background: url('Photo/mybee\ logo.png') no-repeat center center / cover;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: groove;
+    border-bottom: groove;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.banner-image-index {
+    background: url(Photo/mybee\ logo.png) no-repeat center center / cover;
 }
 /* Feature Products Card */
 .card-title a {
@@ -26,4 +43,27 @@
 
 .card-title a:hover {
     color: #ff523b;
+}
+.dropbtn {
+    position: relative;
+    display: inline-block;
+  }
+  
+.droplist {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 60px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.droplist a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropbtn:hover .droplist {
+    display: block;
 }

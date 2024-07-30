@@ -19,6 +19,10 @@
     <link href=“https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css” rel=“stylesheet”>
     <a href=“#”><i class=“fas fa-shopping-cart”></i></a>
 
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -31,10 +35,9 @@
                 <div class="collapse navbar-collapse">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="products.html">Album</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                        <li class="nav-item"><a class="nav-link" href="cart.html">About<i
-                                    class="fas fa-shopping-cart"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="Album.html">Album</a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://wa.me/083804627022">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#About">About</a></li>
                     </ul>
                 </div>
             </nav>
@@ -46,14 +49,14 @@
         <div class="row">
             <div class="col-md-6 d-flex align-items-center justify-content-center bg-warning text-white p-5">
                 <div>
-                    <img src="mybee logo.png" alt="mybee logo" width="300">
+                    <img src="Photo/MyBee Logo 1.png" alt="mybee logo" width="200">
                     <h1>Repeating Our Journey of Happiness on Mybee!</h1>
                     <p class="mb-4"><em>Create your own version of Happiness.<br>Happiness comes from even the smallest
                             things.</em></p>
-                    <a href="products.html" class="btn btn-light btn-lg">Explore now &#10142;</a>
+                    <a href="explorenow.html" class="btn btn-light btn-lg">Explore now &#10142;</a>
                 </div>
             </div>
-            <div class="col-md-6 banner-image"></div>
+            <div class="col-md-6 banner-image-index"></div>
         </div>
     </section>
     <!--- Featured Products 1 -->
@@ -63,15 +66,15 @@
             <!-- Card 1 -->
             <div class="col">
                 <div class="card h-100">
-                    <img src="foto studio 1.JPG" class="card-img-top" alt="photo">
+                    <img src="Photo/foto studio 1.JPG" class="card-img-top" alt="photo">
                     <div class="card-body">
                         <h5 class="card-title">Amateur Musician in Summer</h5>
                         <p class="card-text">Bandung</p>
-                        <form action="cart.html" method="GET">
-                            <input type="hidden" name="product" value="Virtual Reality Glasses">
-                            <input type="hidden" name="price" value="299.00">
-                            <input type="hidden" name="quantity" value="1">
-                            <input type="submit" class="btn btn-warning" value="View Story">
+                        <form class="dropbtn" action="#" method="view">
+                            <input type="hidden" name="title" value="Amateur Musician in Summer">
+                            <input type="hidden" name="location" value="bandung">
+                            <input type="button" class="btn btn-warning" value="Show Full">
+                            <img src="Photo/foto studio 1.JPG" class="droplist" alt="photo" width="500">
                         </form>
                     </div>
                 </div>
@@ -79,15 +82,16 @@
             <!-- Card 2 -->
             <div class="col">
                 <div class="card h-100">
-                    <img src="Foto Studio 2.JPG" class="card-img-top" alt="Photo">
+                    <img src="Photo/Foto Studio 2.JPG" class="card-img-top" alt="Photo">
                     <div class="card-body">
                         <h5 class="card-title">Muby and His Cowboy Hat</h5>
                         <p class="card-text">Bandung</p>
-                        <form action="cart.html" method="GET">
+                        <form class="dropbtn" action="#" method="view">
                             <input type="hidden" name="product" value="Virtual Reality Glasses">
                             <input type="hidden" name="price" value="299.00">
                             <input type="hidden" name="quantity" value="1">
-                            <input type="submit" class="btn btn-warning" value="View Story">
+                            <input type="button" class="btn btn-warning" value="Show Full">
+                            <img src="Photo/Foto Studio 2.JPG" class="droplist" alt="photo" width="500">
                         </form>
                     </div>
                 </div>
@@ -95,15 +99,16 @@
             <!-- Card 3 -->
             <div class="col">
                 <div class="card h-100">
-                    <img src="foto box 1.jpg" class="card-img-top" alt="Photo">
+                    <img src="Photo/foto box 1.jpg" class="card-img-top" alt="Photo">
                     <div class="card-body">
                         <h5 class="card-title">Red and First Formal Wear</h5>
                         <p class="card-text">Bandung</p>
-                        <form action="cart.html" method="GET">
+                        <form class="dropbtn" action="#" method="view">
                             <input type="hidden" name="product" value="Virtual Reality Glasses">
                             <input type="hidden" name="price" value="299.00">
                             <input type="hidden" name="quantity" value="1">
-                            <input type="submit" class="btn btn-warning" value="View Story">
+                            <input type="button" class="btn btn-warning" value="Show Full">                            
+                            <img src="Photo/foto box 1.jpg" class="droplist" alt="photo" width="500">
                         </form>
                     </div>
                 </div>
@@ -111,15 +116,16 @@
             <!-- Card 4 -->
             <div class="col">
                 <div class="card h-100">
-                    <img src="foto box 2.jpg" class="card-img-top" alt="Product">
+                    <img src="Photo/foto box 2.jpg" class="card-img-top" alt="Product">
                     <div class="card-body">
                         <h5 class="card-title">Happiness Welcoming Graduation</h5>
                         <p class="card-text">Bandung</p>
-                        <form action="cart.html" method="GET">
+                        <form class="dropbtn" action="#" method="view">
                             <input type="hidden" name="product" value="Virtual Reality Glasses">
                             <input type="hidden" name="price" value="299.00">
                             <input type="hidden" name="quantity" value="1">
-                            <input type="submit" class="btn btn-warning" value="View Story">
+                            <input type="button" class="btn btn-warning" value="Show Full">                            
+                            <img src="Photo/foto box 2.jpg" class="droplist" alt="photo" width="500">
                         </form>
                     </div>
                 </div>
@@ -127,16 +133,18 @@
             <!--- Add More Products Here -->
         </div>
     </div>
+    
+    <a href="Photo.html" class="btn btn-light btn-lg bg-warning">Show More &#10142;</a>
     <hr>
 
     <!--- Featured Products 2 -->
     <div class="container my-5">
-        <h2 class="text-center mb-4">Our Vidio Happiness</h2>
+        <h2 class="text-center mb-4">Our Video Happiness</h2>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
             <!-- Card 1 -->
             <div class="col">
                 <div class="card h-100">
-                    <video controls src="New Year 2.mp4" class="card-img-top" alt="vidio">
+                    <video controls src="video/New Year 2.mp4" class="card-img-top" alt="vidio">
                         <div class="card-body">
                             <h5 class="card-title">Amateur Musician in Summer</h5>
                             <p class="card-text">Bandung</p>
@@ -152,7 +160,7 @@
             <!-- Card 2 -->
             <div class="col">
                 <div class="card h-100">
-                    <video controls src="Ultah Muby.mp4" class="card-img-top" alt="vidio">
+                    <video controls src="video/Ultah Muby.mp4" class="card-img-top" alt="vidio">
                         <div class="card-body">
                             <h5 class="card-title">Muby and His Cowboy Hat</h5>
                             <p class="card-text">Bandung</p>
@@ -168,7 +176,7 @@
             <!-- Card 3 -->
             <div class="col">
                 <div class="card h-100">
-                    <video controls src="Ultah Mybee.mp4" class="card-img-top" alt="vidio">
+                    <video controls src="video/Ultah Mybee.mp4" class="card-img-top" alt="vidio">
                         <div class="card-body">
                             <h5 class="card-title">Red and First Formal Wear</h5>
                             <p class="card-text">Bandung</p>
@@ -184,7 +192,7 @@
             <!-- Card 4 -->
             <div class="col">
                 <div class="card h-100">
-                    <video controls src="Camping.mp4" class="card-img-top" alt="vidio">
+                    <video controls src="video/Camping.mp4" class="card-img-top" alt="vidio">
                         <div class="card-body">
                             <h5 class="card-title">Happiness Welcoming Graduation</h5>
                             <p class="card-text">Bandung</p>
@@ -200,27 +208,28 @@
             <!--- Add More Products Here -->
         </div>
     </div>
+    <a href="Video.html" class="btn btn-light btn-lg bg-warning">Show More &#10142;</a>
     <hr>
     <!--- New Product -->
     <div class="container">
         <div class="row g-4">
             <div class="col-md-6">
-                <video controls src="Annive 1.mp4" class="img-fluid" alt="vidio" width="260">
+                <video controls src="video/Annive 1.mp4" class="img-fluid" alt="vidio" width="260">
             </div>
             <div class="col-md-6 d-flex align-items-center">
                 <div>
                     <p>The Happiest</p>
                     <h1>Anniversary Celebration</h1>
-                    <small>8 December is our happy day. One year ago, muby confidently declared his love for a beautiful
-                        woman from Bandung who made him fall in love. And on December 8, 2024, full of love and
+                    <small>8 December is our happy day. Two year ago, muby confidently declared his love for a beautiful
+                        woman from Bandung who made him fall in love. And on December 8, 2023 full of love and
                         confidence, Muby convinced himself to declare his love with a ring which would be symbol of love
                         and loyalty in this relationship.</small>
                     <br>
-                    <form action="cart.html" method="GET">
+                    <form action="story.html" method="view">
                         <input type="hidden" name="product" value="Smart Ring">
                         <input type="hidden" name="price" value="199.00">
                         <input type="hidden" name="quantity" value="1">
-                        <input type="submit" class="btn btn-warning" value="Full Story">
+                        <input type="submit" class="btn btn-warning" value="Full Story...">
                     </form>
                 </div>
             </div>
@@ -255,12 +264,12 @@
         </div>
     </section>
     <!--- Footer -->
-    <footer class="bg-dark text-light py-4">
+    <footer id="About" class="bg-dark text-light py-4">
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
                     <h3>Logo</h3>
-                    <img src="mybee logo.png" alt="CoolGadgets Logo" class="mb-2" width="100">
+                    <img src="Photo/mybee logo.png" alt="CoolGadgets Logo" class="mb-2" width="100">
                 </div>
                 <div class="col-md-3">
                     <h3>Navigation</h3>
@@ -272,21 +281,23 @@
                     </ul>
                 </div>
                 <div class="col-md-3">
-                    <h3>Useful Links</h3>
+                    <h3>Other Links</h3>
                     <ul class="list-unstyled">
+                        <li><a href="#" class="text-decoration-none text-light">Photo</a></li>
+                        <li><a href="#" class="text-decoration-none text-light">Video</a></li>
                         <li><a href="#" class="text-decoration-none text-light">Story</a></li>
-                        <li><a href="#" class="text-decoration-none text-light">Trip</a></li>
-                        <li><a href="#" class="text-decoration-none text-light">Blog</a></li>
-                        <li><a href="#" class="text-decoration-none text-light">Return Policy</a></li>
+                        <li><a href="#" class="text-decoration-none text-light">Our Policy</a></li>
                     </ul>
                 </div>
                 <div class="col-md-3">
                     <h3>Follow Us</h3>
                     <ul class="list-unstyled">
+                        <li><a href="https://www.instagram.com/mubyann_"
+                                class="text-decoration-none text-light">Instagram</a></li>
+                        <li><a href="https://www.youtube.com/@muchtaralrohman3790"
+                                class="text-decoration-none text-light">YouTube</a></li>
                         <li><a href="#" class="text-decoration-none text-light">Tiktok</a></li>
                         <li><a href="#" class="text-decoration-none text-light">Twitter</a></li>
-                        <li><a href="#" class="text-decoration-none text-light">Instagram</a></li>
-                        <li><a href="#" class="text-decoration-none text-light">YouTube</a></li>
                     </ul>
                 </div>
             </div>
